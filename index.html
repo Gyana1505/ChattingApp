@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Chat</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <!-- <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script> -->
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- when this script is losd it does not get lower element defer is use separate script and dom is lode then it run -->
+</head>
+<body>
+    <nav>
+        <img class="img" src="gty.png" alt="logo">
+    </nav>
+    <h1>!Conversation</h1>
+    <div class="container">
+        <div class="message right">Gyana:hiii</div>
+        <div class="message left">Bubu: hello broo</div>
+    </div>
+    <div class="send">
+        <form action="#" id="send-form">
+            <input type="text" name="message" id="inputms">
+            <button class="btn" id="gt" type="button">Send</button>
+        </form>
+    </div>
+    <!-- <script src="http://localhost:8000/socket.io/socket.io.js"></script> -->
+    <!-- <script src="https://localhost:8000/4.0.0/socket.io.min.js"></script> -->
+
+</body>
+</html>

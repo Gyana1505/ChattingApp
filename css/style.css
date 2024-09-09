@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(97, 124, 224),rgb(155,155,155),rgb(133,145,167));
+}
+.img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    margin-top: 0px;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 50vw;
+    margin: auto;
+    height: 65vh;
+    padding: 25px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+.message{
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px ;
+    margin: 10px 10px;
+    width: 25%;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-form{
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: auto;
+
+}
+#inputms{
+    width: 75%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+  .btn{
+    background-color: blue;
+    border: 1px solid black; 
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+} 
+
+@media(max-width:700px){
+    .container{
+       max-width: 100%;
+    }
+
+
+}
